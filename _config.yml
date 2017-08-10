@@ -1,16 +1,33 @@
-title: Evgeny Garlukovich
-email: your-email@example.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: evgenygarl
-github_username:  evgenygarl
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
 
-# Build settings
-markdown: kramdown
-theme: minima
-plugins:
-  - jekyll-feed
+# Permalinks
+# permalink:        pretty
+# relative_permalinks: true
+
+gems:
+  - jekyll-paginate
+
+# Setup
+title:            Evgeny Garlukovich
+description:      'Software Engineer'
+url:              https://evgenygarl.github.io/
+baseurl:          /
+
+author:
+  name:           'Evgeny Garlukovich'
+  url:            'https://evgenygarl.github.io/'
+  email:          'https://www.google.com/recaptcha/mailhide/d?k=01Jp-yxgTF5a2ZX4XAikqomA==&c=xx0oSgmfzzwE6lwA3aZX3oYVKsfiEEwVZ8vIE26obxU='
+  github:         'https://github.com/evgenygarl'
+  twitter:        'https://twitter.com/evgenygarl'
+  linkedin:       'https://www.linkedin.com/in/evgenygarlukovich/'
+  telegram:       'https://t.me/evgenygarlukovich'
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/poole/hyde

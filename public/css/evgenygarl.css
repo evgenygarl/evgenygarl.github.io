@@ -1,0 +1,42 @@
+html,
+.pagination,
+.sidebar-about h1 {
+  font-family: "Roboto", "Abril Fatface", serif;
+}
+
+.sidebar-about h1 {
+  font-size: 2.5rem;
+}
+
+.theme-base-0d #sidebar-buttons {
+  color: #6a9fb5;
+}
+
+.list-inline {
+  padding-left: 0;
+  list-style: none;
+  margin-left: -5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-social {
+  display: inline-block;
+  border: 2px solid #fff;
+  border-radius: 100%;
+  text-align: center;
+  width: 2.5em;
+  height: 2.5em;
+  font-size: 2em;
+  line-height: 2.5em;
+}
+
+.btn-outline {
+  margin-top: 3vh;
+  border: solid 2px #fff;
+  font-size: 1em;
+  background: #fff;
+}
+a.btn-outline {
+  color: inherit;
+}

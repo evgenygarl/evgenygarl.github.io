@@ -1,0 +1,45 @@
+<div class="sidebar">
+  <div class="container left-align">
+    <div class="sidebar-about">
+      <h1>
+        <a href="{{ site.baseurl }}">
+          {{ site.title }}
+        </a>
+      </h1>
+      <p class="lead">{{ site.description }}</p>
+    </div>
+
+    <nav class="sidebar-nav">
+    </nav>
+
+    <ul class="list-inline" id="sidebar-buttons">
+      <li>
+        <a href="{{ site.author.email }}" class="btn-social btn-outline" title="E-Mail me" target="_blank">
+          <i class="fa fa-fw fa-at"></i>
+        </a>
+      </li>
+      <li>
+        <a href="{{ site.author.github }}" target="_blank" class="btn-social btn-outline" title="me on GitHub">
+          <i class="fa fa-fw fa-github"></i>
+        </a>
+      </li>
+      <li>
+        <a href="{{ site.author.twitter }}" target="_blank" class="btn-social btn-outline" title="me on Twitter">
+          <i class="fa fa-fw fa-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a href="{{ site.author.linkedin}}" target="_blank" class="btn-social btn-outline" title="me on LinkedIn">
+          <i class="fa fa-fw fa-linkedin"></i>
+        </a>
+      </li>
+      <li>
+        <a href="{{ site.author.telegram}}" target="_blank" class="btn-social btn-outline" title="me on Telegram">
+          <i class="fa fa-fw fa-telegram"></i>
+        </a>
+      </li>
+    </ul>
+
+    <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
+  </div>
+</div>
