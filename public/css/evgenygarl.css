@@ -40,3 +40,9 @@ html,
 a.btn-outline {
   color: inherit;
 }
+
+@media (min-width: 64em) {
+  .content {
+    max-width: none;
+  }
+}

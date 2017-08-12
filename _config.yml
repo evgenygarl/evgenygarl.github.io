@@ -1,13 +1,12 @@
 # Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+markdown:         kramdown
+highlighter:      rouge
+
+plugins:
+  - jekyll-paginate
 
 # Permalinks
-# permalink:        pretty
-# relative_permalinks: true
-
-gems:
-  - jekyll-paginate
+permalink:        /blog/:year/:month/:day/:title/
 
 # Setup
 title:            Evgeny Garlukovich
@@ -26,8 +25,4 @@ author:
 
 paginate:         5
 
-# Custom vars
-version:          2.1.0
-
-github:
-  repo:           https://github.com/poole/hyde
+excerpt_separator: <!--more-->
