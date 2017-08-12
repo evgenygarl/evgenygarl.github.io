@@ -12,7 +12,7 @@ permalink:        /blog/:year/:month/:day/:title/
 title:            Evgeny Garlukovich
 description:      'Software Engineer'
 url:              https://evgenygarl.github.io/
-baseurl:          /
+baseurl:          ''
 
 author:
   name:           'Evgeny Garlukovich'
