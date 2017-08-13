@@ -39,6 +39,6 @@ Several weeks ago when I was learning [Ruby web framework Hanami](http://hanamir
 ```
 
 As you can see, we can replace all ERB tags used in `if/else` statement with just one expression-printing `<%=  %>` tag. And it returns us the same result.  
-I thing it's really cool! We have the same result, but with less code. And I've already started using this approach in my current project.
+I think it's really cool! We have the same result, but with less code. And I've already started using this approach on my current project.
 
 I hope, this little trick will help you to decrease number of tags in your ERB templates. 😊
