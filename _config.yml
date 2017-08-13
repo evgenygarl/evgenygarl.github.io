@@ -26,3 +26,5 @@ author:
 paginate:         5
 
 excerpt_separator: <!--more-->
+
+google_analytics: 'UA-49313480-2'
