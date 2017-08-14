@@ -4,6 +4,7 @@ highlighter:      rouge
 
 plugins:
   - jekyll-paginate
+  - jekyll-feed
 
 # Permalinks
 permalink:        /blog/:year/:month/:day/:title/
