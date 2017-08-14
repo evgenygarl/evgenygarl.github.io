@@ -3,8 +3,9 @@ markdown:         kramdown
 highlighter:      rouge
 
 plugins:
-  - jekyll-paginate
   - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
 
 # Permalinks
 permalink:        /blog/:year/:month/:day/:title/
@@ -29,3 +30,6 @@ paginate:         5
 excerpt_separator: <!--more-->
 
 google_analytics: 'UA-49313480-2'
+
+twitter:
+  username:       "evgenygarl"
