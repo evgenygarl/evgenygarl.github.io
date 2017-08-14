@@ -8,6 +8,10 @@ layout: default
   {{ content }}
 </div>
 
+{% if page.comments and jekyll.environment == "production" %}
+  {% include comments.html %}
+{% endif %}
+
 {% comment %}
 <div class="related">
   <h2>Related Posts</h2>

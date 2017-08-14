@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "How to reduce amount of tags in your ERB templates"
+comments: true
 ---
 
 Embedded Ruby (or ERB) template syntax is well-know for any Ruby on Rails developer. Someone likes it, someone does not. Many developers prefer ERB alternatives (like [Slim](http://slim-lang.com/) or [Haml](http://haml.info/)). I worked with Slim on several projects, and I really like it!  
