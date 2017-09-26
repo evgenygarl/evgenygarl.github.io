@@ -16,14 +16,14 @@ So, let’s try:
 
 ```ruby
 Rails.application.routes.recognize_path('/users/5948')
-#=> {:controller=>"users", :action=>"show", :id=>"5948"}
+=> {:controller=>"users", :action=>"show", :id=>"5948"}
 ```
 
 Wait, but it seems to display direction for `GET /users/5948` request. That’s correct! `GET` request method is used by default there. To specify the request method you should pass it with (surprisingly) `method` key as the second argument:
 
 ```ruby
 Rails.application.routes.recognize_path('/users/5948', method: :put)
-#=> {:controller=>"users", :action=>"update", :id=>"5948"}
+=> {:controller=>"users", :action=>"update", :id=>"5948"}
 ```
 
 Now it displays the correct direction. And we no longer need to check logs for such things. That’s cool, isn’t it? 😊  
@@ -32,7 +32,7 @@ Also, this method handles unknown request. If you try to pass unknown path/metho
 
 ```ruby
 Rails.application.routes.recognize_path('/some_invalid_path')
-ActionController::RoutingError: No route matches "/some_invalid_path"
+# ActionController::RoutingError: No route matches "/some_invalid_path"
 ```
 
 I hope `Rails.application.routes.recognize_path` will help you out by saving your time for other more interesting stuff 😊 
